@@ -6,8 +6,7 @@
 trigger:
 - none
 
-pool:
-  vmImage: windows-latest
+pool: nodepool
 
 steps:
 - script: echo Hello, world!
