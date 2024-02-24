@@ -16,6 +16,7 @@ steps:
 
 - script: |
     npm install
+    eslint --init
     npm run build
   displayName: 'npm install and build'
 
